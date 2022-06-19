@@ -10,7 +10,7 @@
 	<link rel="icon" type="image/png" href="images/sol.png" witdh:"content" height:"content">
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- font awesome -->
 	<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
@@ -22,13 +22,7 @@
 
 	<!-- ONLOAD -->
 
-	<div id="loader-principal">
-		<div class="img">
-			<img src="images/logo.png">
-		</div>
-		<div id="loader-container">
-		</div>
-	</div>
+	<div id="loader-principal" v-html="loader"></div>
 
 	<!-- NAVBAR -->
 
@@ -113,49 +107,7 @@
 
 	<!-- FOOTER -->
 
-	<footer>
-		<div class="footer">
-			<div class="row">
-				<div class="footer-col">
-					<h4>ENERGÍA SOLAR</h4>
-					<ul>
-						<li>
-							<p>Producida por la luz o el calor del sol para la generación de electricidad o la
-								producción de calor. Inagotable y renovable</p>
-						</li>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4><a href="empresa.html" class="link">LA EMPRESA</a></h4>
-					<ul>
-						<li><a href="empresa.html">MISIÓN</a></li>
-						<li><a href="empresa.html">VISIÓN</a></li>
-						<li><a href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a></li>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>¿QUERÉS ENCONTRARNOS?</h4>
-					<ul>
-						<li><iframe
-								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13048.781789073935!2d-58.740831!3d-35.1517461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3234258d8c6f259!2sEnerg%C3%ADa%20Solar%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636565399612!5m2!1ses-419!2sar"
-								width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-						</li>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>SEGUINOS</h4>
-					<div class="social-links">
-						<a href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i
-								class="fab fa-facebook-f"></i></a>
-						<a href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs"
-							target="_blank"><i class="fab fa-whatsapp"></i></a>
-						<a href="https://www.instagram.com/esba_bs.as/" target="_blank"><i
-								class="fab fa-instagram"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<footer id="footer" v-html="foot"></footer>
 
 	<!-- JAVASCRIPT -->
 
