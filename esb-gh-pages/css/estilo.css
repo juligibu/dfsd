@@ -919,17 +919,6 @@ iframe {
 
 /* SISTEMA FOTOVOLTAICO */
 
-.aside-fotovoltaico {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto;
-    padding-top: 70px;
-    justify-content: center;
-    height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .sistema-fotovoltaico {
     padding-top: 20px;
 }
@@ -969,51 +958,6 @@ iframe {
     color: #000;
 }
 
-.sistema-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    padding-bottom: 100px;
-    justify-content: center;
-}
-
-.sistema-grid {
-    text-align: center;
-    margin: 20px;
-}
-
-.offgrid {
-    border: 1px solid #1fc5f8;
-    width: 95%;
-    height: 30vh;
-    border-radius: 20px;
-    margin-left: 10%;
-    box-shadow: -1px -1px 8px #1fc5f84f, 1px 1px 8px #1fc5f84f;
-}
-
-.offgrid h1 {
-    padding-top: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-}
-
-.ongrid {
-    border: 1px solid #1fc5f8;
-    width: 95%;
-    height: 30vh;
-    border-radius: 20px;
-    margin-left: 10%;
-    box-shadow: -1px -1px 8px #1fc5f84f, 1px 1px 8px #1fc5f84f;
-}
-
-.ongrid h1 {
-    padding-top: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 100;
-    font-size: 18px;
-}
-
 @media(max-width: 1260px){
 
     .presentacion img {
@@ -1028,30 +972,12 @@ iframe {
         width: 550px;
     }
 
-    .aside-fotovoltaico {
-        display: grid;
-        grid-template-columns: 250px 1fr;
-        grid-template-rows: auto;
-        padding-top: 70px;
-        justify-content: center;
-        height: 100%;
-
-    }
-
 }
 
 @media (max-width: 880px) {
 
     .presentacion img {
         width: 650px;
-    }
-
-    .aside-fotovoltaico {
-        display: block;
-    }
-
-    .aside-fotovoltaico .aside {
-        display: none;
     }
 }
 
@@ -1091,70 +1017,6 @@ iframe {
         font-size: 20px;
     }
     
-}
-
-/* PROYECTOS HTML */
-
-.aside-proyectos {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto;
-    padding-top: 70px;
-    justify-content: center;
-    height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-@media (max-width: 1605px) {
-    
-    .aside-proyectos .proyectos-contenedor {
-        display: grid;
-        grid-template-columns: 450px 450px;
-        padding-top: 20px;
-        padding-bottom: 100px;
-        justify-content: center;
-    }
-}
-
-@media(max-width: 1170px){
-
-    .aside-proyectos .proyectos-contenedor {
-        display: grid;
-        grid-template-columns: 400px;
-        padding-top: 20px;
-        padding-bottom: 100px;
-        justify-content: center;
-    }
-
-}
-
-@media (max-width: 960px) {
-    .aside-proyectos {
-        padding-top: 50px;
-    }   
-}
-
-@media(max-width: 720px){
-
-    .aside-proyectos .proyectos-contenedor {
-        display: grid;
-        grid-template-columns: 400px;
-        padding-top: 20px;
-        padding-bottom: 100px;
-        justify-content: center;
-    }
-
-    .aside-proyectos .aside {
-        display: none;
-    }
-
-    .aside-proyectos {
-        display: block;
-        padding-top: 50px;
-        justify-content: center;
-    }
-
 }
 
 /* EMPRESA HTML */
@@ -1278,15 +1140,6 @@ iframe {
 
 /* PREGUNTAS FRECUENTES */
 
-.aside-preguntas-frecuentes {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto;
-    padding-top: 70px;
-    justify-content: center;
-    height: 100%;
-}
-
 .preguntas {
     text-align: center;
 }
@@ -1341,73 +1194,7 @@ iframe {
     text-align: left;
 }
 
-/* PREGUNTAS FRECUENTES */
-
-.aside-preguntas-frecuentes {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: auto;
-    padding-top: 70px;
-    justify-content: center;
-    height: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.preguntasfrecuentes {
-    background-color: rgba(221, 214, 214, 0.11);
-    border: 1px solid rgba(43, 43, 43, 0.158);
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 20px;
-}
-
-.pregunta {
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.boton:hover {
-    background-color: rgba(211, 208, 208, 0.329);
-}
-
-.pregunta:first-child {
-    padding-top: 20px;
-}
-
-.pregunta:last-child {
-    padding-bottom: 20px;
-}
-
-.boton {
-    background-color: rgba(255, 255, 255, 0.829);
-    padding: 10px;
-    display: flex;
-    width: 100%;
-    font-size: 17px;
-    font-family: 'Helvetica';
-    color: rgb(78, 78, 78);
-    text-transform: uppercase;
-    border: 1px solid rgba(43, 43, 43, 0.158);
-    text-align: left;
-}
-
-.preguntasfrecuentes p {
-    background-color: rgba(211, 208, 208, 0.329);
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    display: flex;
-    width: 100%;
-    font-size: 17px;
-    font-family: 'Helvetica';
-    color: rgb(78, 78, 78);
-    text-transform: uppercase;
-    border: 1px solid rgba(43, 43, 43, 0.158);
-    text-align: left;
-}
-
-#respuesta, #respuesta2, #respuesta3, #respuesta4, #respuesta5 {
+#respuesta1, #respuesta2, #respuesta3, #respuesta4, #respuesta5 {
     display: none;
 }
 

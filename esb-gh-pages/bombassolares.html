@@ -5,7 +5,7 @@
 
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<!-- ICON -->
 	<link rel="icon" type="image/png" href="images/sol.png" witdh:"content" height:"content">
 
@@ -14,7 +14,7 @@
 
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+
 	<title> ESBA </title>
 
 </head>
@@ -26,11 +26,100 @@
 	<div id="loader-principal" v-html="loader"></div>
 
 	<!-- NAVBAR -->
-	
+
 	<header class="header" id="navbar">
 		<nav class="nav" v-html="barranavegacion">
 		</nav>
 	</header>
+
+	<!-- ASIDE + SISTEMA FOTOVOLTAICO -->
+
+	<div class="aside">
+
+		<div class="aside">
+			<div class="container-productos-aside">
+				<h4 class="producto-aside"><a href="sistemafotovoltaico.html">Sistemas Fotovoltaicos</a></h4>
+				<h4 class="producto-aside"><a href="climatizaciondepiscinas.html">Climatización de Piscinas</a></h4>
+				<h4 class="producto-aside"><a href="bombassolares.html">Bombas Solares</a></h4>
+				<h4 class="producto-aside"><a href="airecalientesolar.html">Aire Caliente Solar</a></h4>
+				<h4 class="producto-aside"><a href="aguasanitariacaliente.html">Agua Sanitaria Caliente</a></h4>
+				<h4 class="producto-aside"><a href="iluminacionsolar.html">Punto Solar</a></h4>
+			</div>
+			<div class="slide-contenedor">
+				<div class="miSlider fade">
+					<img src="images/imagen.jpg">
+				</div>
+				<div class="miSlider fade">
+					<img src="images/imagen2.jpg">
+				</div>
+				<div class="miSlider fade">
+					<img src="images/imagen3.jpg">
+				</div>
+				<div class="barras">
+					<span class="barra active" onclick="posicionSlide(1)"></span>
+					<span class="barra" onclick="posicionSlide(2)"></span>
+					<span class="barra" onclick="posicionSlide(3)"></span>
+				</div>
+			</div>
+			<div class="info-aside">
+				<h2> EXPOSICIÓN Y VENTAS </h2>
+				<div>
+					<p> <b>Dirección:</b><br>
+						<a class="contacto-aside acuatro" href="https://goo.gl/maps/DHqNGcVBNq5X46SG6"><i
+								class="fab fa fa-map-marker"></i> &nbsp; Ruta Nacional 3, Km 77<br>
+							Cañuelas – Buenos Aires </a>
+					</p>
+					<p> <b>Contacto:</b><br>
+						<a class="contacto-aside auno" href="https://www.facebook.com/energiasolarbuenosaires/"
+							target="_blank"><i class="fab fa-facebook-f"></i> &nbsp; :/energiasolarbuenosaires</a><br>
+						<a class="contacto-aside ados" href="https://www.instagram.com/esba_bs.as/" target="_blank"><i
+								class="fab fa-instagram"></i> &nbsp; :/esba_bs.as </a><br>
+						<a class="contacto-aside atres"
+							href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs"
+							target="_blank"><i class="fab fa-whatsapp"></i> &nbsp; :/54 11 3604-5362</a>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- BOMBAS SOLARES -->
+
+		<section class="clima">
+			<h1 class="titulo"><a href="#"> CLIMATIZACIÓN DE PISCINAS </a></h1>
+
+			<div class="sistema-fotovoltaico">
+				<div class="presentacion">
+					<img src="images/imagen2.png" alt="">
+				</div>
+				<div class="sistema-total">
+					<div class="sistema-clima">
+						<img src="images/piscina_1.jpg" alt="">
+					</div>
+					<div class="sistema-clima">
+						<img src="images/piscina_2.jpg" alt="">
+					</div>
+					<div class="sistema-clima">
+						<img src="images/piscina_3.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="climatizacion">
+				<p class="cuadro-clima">
+					Queremos demostrar que con ideas innovadoras, simples y sustentables se crean productos más
+					eficientes,
+					que dan confort, tal es el caso de los colectores para piscinas que permiten ampliar tu temporada de
+					pileta. La instalación es rápida y sencilla, la inversión es baja en relación a los beneficios.
+					<br><br>- Baja inversión
+					<br> - Bajo impacto arquitectónico, liviano
+					<br> - Sistema novedoso y ampliamente probado
+					<br> - Vida útil mínima de 15 años
+					<br> - Temperatura aproximada del agua entre 27 a 30 Cº
+				</p>
+			</div>
+
+		</section>
+	</div>
 
 	<!-- FOOTER -->
 
@@ -42,4 +131,5 @@
 	<script src="js/code.js"></script>
 
 </body>
+
 </html>

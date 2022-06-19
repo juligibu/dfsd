@@ -10,10 +10,10 @@
 	<link rel="icon" type="image/png" href="images/sol.png" witdh:"content" height:"content">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
 	<!-- font awesome -->
-	<script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<title> ESBA </title>
 </head>
@@ -31,72 +31,55 @@
 		</nav>
 	</header>
 
-	<!-- ASIDE + PREGUNTAS FRECUENTES -->
+	<!-- ASIDE -->
 
-	<div class="aside-preguntas-frecuentes">
+	<div class="aside-productos">
 
-		<!-- ASIDE -->
-
-		<div class="aside">
-			<div class="slide-contenedor">
-				<div class="miSlider fade">
-					<img src="images/imagen.jpg">
-				</div>
-				<div class="miSlider fade">
-					<img src="images/imagen2.jpg">
-				</div>
-				<div class="miSlider fade">
-					<img src="images/imagen3.jpg">
-				</div>
-				<div class="barras">
-					<span class="barra active" onclick="posicionSlide(1)"></span>
-					<span class="barra" onclick="posicionSlide(2)"></span>
-					<span class="barra" onclick="posicionSlide(3)"></span>
-				</div>
-			</div>
+		<div class="aside" id="asidepreg" v-html="asidepreguntas">
 		</div>
 
 		<!-- PREGUNTAS FRECUENTES -->
 
 		<section class="preguntas">
-
 			<div class="container-titulo">
 				<h1 class="titulo"><a href="#"> PREGUNTAS FRECUENTES </a></h1>
 			</div>
 
 			<div class="preguntasfrecuentes">
 				<div class="pregunta">
-					<button id="pregunta" type="button" onclick="mostrarPregunta();" class="boton">¿Qué es la energía
+					<button id="pregunta1" type="button" onclick="mostrarPregunta(1);" class="boton">¿Qué es la
+						energía
 						solar térmica?</button>
-					<p id="respuesta" onclick="dejarDeMostrarPregunta();">La Energía Solar Térmica consiste en el
+					<p id="respuesta1" onclick="dejarDeMostrarPregunta(1);">La Energía Solar Térmica consiste en
+						el
 						aprovechamiento de la energía del Sol para generar y acumular calor. Es una forma de energía
 						LIMPIA, RENOVABLE y GRATIS.</p>
 				</div>
 				<div class="pregunta">
-					<button id="pregunta2" type="button" onclick="mostrarPregunta2();" class="boton">¿Para qué se puede
+					<button id="pregunta2" type="button" onclick="mostrarPregunta(2);" class="boton">¿Para qué se puede
 						utilizar?</button>
-					<p id="respuesta2" onclick="dejarDeMostrarPregunta2();">La Energía Solar Térmica se la usa
+					<p id="respuesta2" onclick="dejarDeMostrarPregunta(2);">La Energía Solar Térmica se la usa
 						principalmente para calentar agua y abastecernos del Agua Caliente Sanitaria que usamos en
 						nuestras casas para ducharnos o lavar los platos.</p>
 				</div>
 				<div class="pregunta">
-					<button id="pregunta3" type="button" onclick="mostrarPregunta3();" class="boton">¿Para qué se puede
+					<button id="pregunta3" type="button" onclick="mostrarPregunta(3);" class="boton">¿Para qué se puede
 						utilizar?</button>
-					<p id="respuesta3" onclick="dejarDeMostrarPregunta3();">La Energía Soar Térmica se la usa
+					<p id="respuesta3" onclick="dejarDeMostrarPregunta(3);">La Energía Soar Térmica se la usa
 						principalmente para calentar agua y abastecernos del Agua Caliente Sanitaria que usamos en
 						nuestras casas para ducharnos o lavar los platos.</p>
 				</div>
 				<div class="pregunta">
-					<button id="pregunta4" type="button" onclick="mostrarPregunta4();" class="boton">¿Para qué se puede
+					<button id="pregunta4" type="button" onclick="mostrarPregunta(4);" class="boton">¿Para qué se puede
 						utilizar?</button>
-					<p id="respuesta4" onclick="dejarDeMostrarPregunta4();">La Energía SolaTérmica se la usa
+					<p id="respuesta4" onclick="dejarDeMostrarPregunta(4);">La Energía SolaTérmica se la usa
 						principalmente para calentar agua y abastecernos del Agua Caliente Sanitaria que usamos en
 						nuestras casas para ducharnos o lavar los platos.</p>
 				</div>
 				<div class="pregunta">
-					<button id="pregunta5" type="button" onclick="mostrarPregunta5();" class="boton">¿Para qué se puede
+					<button id="pregunta5" type="button" onclick="mostrarPregunta(5);" class="boton">¿Para qué se puede
 						utilizar?</button>
-					<p id="respuesta5" onclick="dejarDeMostrarPregunta5();">La Energía So Térmica se la usa
+					<p id="respuesta5" onclick="dejarDeMostrarPregunta(5);">La Energía So Térmica se la usa
 						principalmente para calentar agua y abastecernos del Agua Caliente Sanitaria que usamos en
 						nuestras casas para ducharnos o lavar los platos.</p>
 				</div>
@@ -111,72 +94,9 @@
 
 	<!-- JAVASCRIPT -->
 
-	<script>
-
-		function mostrarPregunta() {
-			document.getElementById('pregunta').style.display = 'none';
-			document.getElementById('respuesta').style.display = 'block';
-		}
-
-		function dejarDeMostrarPregunta() {
-			document.getElementById('pregunta').style.display = 'block';
-			document.getElementById('respuesta').style.display = 'none';
-
-		}
-
-		function mostrarPregunta2() {
-			document.getElementById('pregunta2').style.display = 'none';
-			document.getElementById('respuesta2').style.display = 'block';
-		}
-
-		function dejarDeMostrarPregunta2() {
-			document.getElementById('pregunta2').style.display = 'block';
-			document.getElementById('respuesta2').style.display = 'none';
-
-		}
-
-
-		function mostrarPregunta3() {
-			document.getElementById('pregunta3').style.display = 'none';
-			document.getElementById('respuesta3').style.display = 'block';
-		}
-
-		function dejarDeMostrarPregunta3() {
-			document.getElementById('pregunta3').style.display = 'block';
-			document.getElementById('respuesta3').style.display = 'none';
-
-		}
-
-
-		function mostrarPregunta4() {
-			document.getElementById('pregunta4').style.display = 'none';
-			document.getElementById('respuesta4').style.display = 'block';
-		}
-
-		function dejarDeMostrarPregunta4() {
-			document.getElementById('pregunta4').style.display = 'block';
-			document.getElementById('respuesta4').style.display = 'none';
-
-		}
-
-
-		function mostrarPregunta5() {
-			document.getElementById('pregunta5').style.display = 'none';
-			document.getElementById('respuesta5').style.display = 'block';
-		}
-
-		function dejarDeMostrarPregunta5() {
-			document.getElementById('pregunta5').style.display = 'block';
-			document.getElementById('respuesta5').style.display = 'none';
-
-		}
-
-	</script>
-
-	<!-- JAVASCRIPT -->
-
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	<script src="js/code.js"></script>
+
 </body>
 
 </html>

@@ -4,11 +4,11 @@ let loader = new Vue({
     el: '#loader-principal',
     data: {
         loader:
-        '<div class="img">'+
-            '<img src = "images/logo.png">'+
-      '</div >'+
-    '<div id="loader-container">'+
-    '</div>'
+            '<div class="img">' +
+            '<img src = "images/logo.png">' +
+            '</div >' +
+            '<div id="loader-container">' +
+            '</div>'
     },
 });
 
@@ -37,55 +37,55 @@ let navbar = new Vue({
             '<li><a href="empresa.html">Empresa</a></li>' +
             '<li><a href="preguntasfrecuentes.html">Preguntas Frecuentes</a></li>' +
             '</ul >' +
-            '<span class="btn-menu"><i class="fas fa-bars"></i></span>'
+            '<span class="btn-menu"><i class="fa fa-bars"></i></span>'
     },
 });
 
 // FOOTER
 
-let footer = new Vue ({
+let footer = new Vue({
     el: '#footer',
     data: {
         foot:
-        '<div class="footer">'+
-        '<div class="row">'+
-            '<div class="footer-col">'+
-                '<h4>ENERGÍA SOLAR</h4>'+
-                '<ul>'+
-                    '<li>'+
-                        '<p>Producida por la luz o el calor del sol para la generación de electricidad o la'+
-                            'producción de calor. Inagotable y renovable</p>'+
-                    '</li>'+
-                '</ul>'+
-            '</div>'+
-            '<div class="footer-col">'+
-                '<h4><a href="empresa.html" class="link">LA EMPRESA</a></h4>'+
-                '<ul>'+
-                    '<li><a href="empresa.html">MISIÓN</a></li>'+
-                    '<li><a href="empresa.html">VISIÓN</a></li>'+
-                    '<li><a href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a></li>'+
-                '</ul>'+
-            '</div>'+
-            '<div class="footer-col">'+
-                '<h4>¿QUERÉS ENCONTRARNOS?</h4>'+
-                '<ul>'+
-                    '<li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13048.781789073935!2d-58.740831!3d-35.1517461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3234258d8c6f259!2sEnerg%C3%ADa%20Solar%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636565399612!5m2!1ses-419!2sar"'+
-                            'width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'+
-                    '</li>'+
-                '</ul>'+
-            '</div>'+
-            '<div class="footer-col">'+
-                '<h4>SEGUINOS</h4>'+
-                '<div class="social-links">'+
-                    '<a href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i class="fa fa-facebook-f"></i></a>'+
-                    '<a href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs"'+
-                        'target="_blank"><i class="fa fa-whatsapp"></i></a>'+
-                    '<a href="https://www.instagram.com/esba_bs.as/" target="_blank"><i class="fa fa-instagram"></i></a>'+
-                    '<a href="mailto:energiasolarbuenosaires@gmail.com?Subject=Consulta"><i class="fa fa-inbox"></i></a>'+
-                '</div>'+
-            '</div>'+
-        '</div>'+
-    '</div>'
+            '<div class="footer">' +
+            '<div class="row">' +
+            '<div class="footer-col">' +
+            '<h4>ENERGÍA SOLAR</h4>' +
+            '<ul>' +
+            '<li>' +
+            '<p>Producida por la luz o el calor del sol para la generación de electricidad o la' +
+            'producción de calor. Inagotable y renovable</p>' +
+            '</li>' +
+            '</ul>' +
+            '</div>' +
+            '<div class="footer-col">' +
+            '<h4><a href="empresa.html" class="link">LA EMPRESA</a></h4>' +
+            '<ul>' +
+            '<li><a href="empresa.html">MISIÓN</a></li>' +
+            '<li><a href="empresa.html">VISIÓN</a></li>' +
+            '<li><a href="preguntasfrecuentes.html">PREGUNTAS FRECUENTES</a></li>' +
+            '</ul>' +
+            '</div>' +
+            '<div class="footer-col">' +
+            '<h4>¿QUERÉS ENCONTRARNOS?</h4>' +
+            '<ul>' +
+            '<li><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13048.781789073935!2d-58.740831!3d-35.1517461!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3234258d8c6f259!2sEnerg%C3%ADa%20Solar%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1636565399612!5m2!1ses-419!2sar"' +
+            'width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>' +
+            '</li>' +
+            '</ul>' +
+            '</div>' +
+            '<div class="footer-col">' +
+            '<h4>SEGUINOS</h4>' +
+            '<div class="social-links">' +
+            '<a href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i class="fa fa-facebook-f"></i></a>' +
+            '<a href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs"' +
+            'target="_blank"><i class="fa fa-whatsapp"></i></a>' +
+            '<a href="https://www.instagram.com/esba_bs.as/" target="_blank"><i class="fa fa-instagram"></i></a>' +
+            '<a href="mailto:energiasolarbuenosaires@gmail.com?Subject=Consulta"><i class="fa fa-inbox"></i></a>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>'
     },
 });
 
@@ -139,6 +139,89 @@ let prod = new Vue({
             '<p>Las luminarias led solares funcionan en base a energía limpia y con muy bajo mantenimiento, reduciendo sensiblemente el consumo con una extensa vida útil.</p>' +
             '</div>' +
             '</div></a>' +
+            '</div>'
+    },
+});
+
+// ASIDE
+
+let aside = new Vue({
+    el: '#aside',
+    data: {
+        asideproductos:
+            '<div class="container-productos-aside">' +
+            '<h4 class="producto-aside"><a href="sistemafotovoltaico.html">Sistemas Fotovoltaicos</a></h4>' +
+            '<h4 class="producto-aside"><a href="climatizaciondepiscinas.html">Climatización de Piscinas</a></h4>' +
+            '<h4 class="producto-aside"><a href="bombassolares.html">Bombas Solares</a></h4>' +
+            '<h4 class="producto-aside"><a href="airecalientesolar.html">Aire Caliente Solar</a></h4>' +
+            '<h4 class="producto-aside"><a href="aguasanitariacaliente.html">Agua Sanitaria Caliente</a></h4>' +
+            '<h4 class="producto-aside"><a href="iluminacionsolar.html">Punto Solar</a></h4>' +
+            '</div>' +
+            '<div class="slide-contenedor">' +
+            '<div class="miSlider fade">' +
+            '<img src="images/imagen.jpg">' +
+            '</div>' +
+            '<div class="miSlider fade">' +
+            '<img src="images/imagen2.jpg">' +
+            '</div>' +
+            '<div class="miSlider fade">' +
+            '<img src="images/imagen3.jpg">' +
+            '</div>' +
+            '<div class="barras">' +
+            '<span class="barra active" onclick="posicionSlide(1)"></span>' +
+            '<span class="barra" onclick="posicionSlide(2)"></span>' +
+            '<span class="barra" onclick="posicionSlide(3)"></span>' +
+            '</div>' +
+            '</div>' +
+            '<div class="info-aside">' +
+            '<h2> EXPOSICIÓN Y VENTAS </h2>' +
+            '<div>' +
+            '<p> <b>Dirección:</b><br>' +
+            '<a target="_blank" class="contacto-aside acuatro" href="https://goo.gl/maps/DHqNGcVBNq5X46SG6"><i class="fab fa fa-map-marker"></i> &nbsp; Ruta Nacional 3, Km 77<br> Cañuelas - Buenos Aires </a>' +
+            '</p>' +
+            '<p> <b>Contacto:</b><br>' +
+            '<a class="contacto-aside auno" href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i class="fa fa-facebook-f"></i> &nbsp; :/energiasolarbuenosaires</a><br>' +
+            '<a class="contacto-aside ados" href="https://www.instagram.com/esba_bs.as/" target="_blank"><i class="fa fa-instagram"></i> &nbsp; :/esba_bs.as </a><br>' +
+            '<a class="contacto-aside atres" href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs" target="_blank"><i class="fa fa-whatsapp"></i> &nbsp; :/54 11 3604-5362</a><br>' +
+            '<a class="contacto-aside acinco" href="mailto:energiasolarbuenosaires@gmail.com?Subject=Consulta"><i class="fa fa-inbox"></i> &nbsp; :/energiasolarbuenosaires</a>' +
+            '</p>' +
+            '</div>' +
+            '</div>'
+    },
+});
+
+let asidepreg = new Vue({
+    el: '#asidepreg',
+    data: {
+        asidepreguntas:
+            '<div class="slide-contenedor">' +
+            '<div class="miSlider fade">' +
+            '<img src="images/imagen.jpg">' +
+            '</div>' +
+            '<div class="miSlider fade">' +
+            '<img src="images/imagen2.jpg">' +
+            '</div>' +
+            '<div class="miSlider fade">' +
+            '<img src="images/imagen3.jpg">' +
+            '</div>' +
+            '<div class="barras">' +
+            '<span class="barra active" onclick="posicionSlide(1)"></span>' +
+            '<span class="barra" onclick="posicionSlide(2)"></span>' +
+            '<span class="barra" onclick="posicionSlide(3)"></span>' +
+            '</div>' +
+            '</div>' +
+            '<div class="info-aside">' +
+            '<h2> EXPOSICIÓN Y VENTAS </h2>' +
+            '<div>' +
+            '<p> <b>Dirección:</b><br>' +
+            '<a target="_blank" class="contacto-aside acuatro" href="https://goo.gl/maps/DHqNGcVBNq5X46SG6"><i class="fab fa fa-map-marker"></i> &nbsp; Ruta Nacional 3, Km 77<br> Cañuelas - Buenos Aires </a>' +
+            '</p>' +
+            '<p> <b>Contacto:</b><br>' +
+            '<a class="contacto-aside auno" href="https://www.facebook.com/energiasolarbuenosaires/" target="_blank"><i class="fa fa-facebook-f"></i> &nbsp; :/energiasolarbuenosaires</a><br>' +
+            '<a class="contacto-aside ados" href="https://www.instagram.com/esba_bs.as/" target="_blank"><i class="fa fa-instagram"></i> &nbsp; :/esba_bs.as </a><br>' +
+            '<a class="contacto-aside atres" href="https://api.whatsapp.com/send?phone=541136045362&app=facebook&entry_point=page_cta&fbclid=IwAR1W47JprC_zGMrHFOdajKhV21lA6VaUzRlTKSFXgNdnEcrqT1JtAM2bXHs" target="_blank"><i class="fa fa-whatsapp"></i> &nbsp; :/54 11 3604-5362</a><br>' +
+            '<a class="contacto-aside acinco" href="mailto:energiasolarbuenosaires@gmail.com?Subject=Consulta"><i class="fa fa-inbox"></i> &nbsp; :/energiasolarbuenosaires</a>' +
+            '</p>' +
             '</div>'
     },
 });
@@ -275,4 +358,19 @@ window.addEventListener('click', function (e) {
         modalt.style.display = 'none';
     }
 });
+
+// PREGUNTAS
+
+function mostrarPregunta(num) {
+    document.getElementById('pregunta' + num).style.display = 'none';
+    document.getElementById('respuesta' + num).style.display = 'block';
+}
+
+function dejarDeMostrarPregunta(num) {
+    document.getElementById('pregunta' + num).style.display = 'block';
+    document.getElementById('respuesta' + num).style.display = 'none';
+
+}
+
+
 
